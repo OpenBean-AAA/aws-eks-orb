@@ -33,8 +33,8 @@ A demo project is also available [here](https://github.com/CircleCI-Public/circl
 version: 2.1
 
 orbs:
-  aws-eks: circleci/aws-eks@x.y
-  kubernetes: circleci/kubernetes@0.4.0
+  aws-eks: openbean/aws-eks@x.y
+  kubernetes: openbean/kubernetes-orb@1.0.0
 
 jobs:
   create-deployment:
